@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "title": "Sample Cook",
+      "date": "2026-01-01",
+      "time": "11:00 AM - 5:00 PM",
+      "location": "The Potato Shed",
+      "description": "This is a placeholder event. Edit or remove via the CMS."
+    }
+  ]
+}

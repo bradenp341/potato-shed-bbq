@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "name": "Plates",
+      "description": "Includes meat + 2 side dishes",
+      "items": [
+        { "name": "Brisket Plate", "price": "$16.00" },
+        { "name": "Pulled Pork Plate", "price": "$14.00" },
+        { "name": "Sausage Plate", "price": "$14.00" },
+        { "name": "Sandwich Plate", "price": "$14.00" },
+        { "name": "2 Meat Combo Plate", "price": "$15.00" },
+        { "name": "3 Meat Combo Plate", "price": "$18.00" }
+      ]
+    },
+    {
+      "name": "Meat by the Pound",
+      "description": "",
+      "items": [
+        { "name": "Brisket", "price": "$30/lb" },
+        { "name": "Pulled Pork", "price": "$20/lb" },
+        { "name": "Chicken", "price": "$15/lb" },
+        { "name": "Sausage", "price": "$15/lb" }
+      ]
+    },
+    {
+      "name": "Side Dishes",
+      "description": "",
+      "items": [
+        { "name": "Cheesy Potatoes", "price": "$3.00" },
+        { "name": "Mac & Cheese", "price": "$3.00" },
+        { "name": "Coleslaw", "price": "$3.00" },
+        { "name": "Baked Beans", "price": "$3.00" },
+        { "name": "Chips", "price": "$3.00" }
+      ]
+    }
+  ]
+}

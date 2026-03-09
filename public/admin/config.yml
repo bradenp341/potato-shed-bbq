@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: bradenp34/potato-shed-bbq
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "menu"
+    label: "Menu"
+    files:
+      - name: "menu"
+        label: "Menu Items"
+        file: "content/menu.json"
+        fields:
+          - name: "categories"
+            label: "Categories"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Category Name", widget: "string" }
+              - { name: "description", label: "Description", widget: "string", required: false }
+              - name: "items"
+                label: "Items"
+                widget: "list"
+                fields:
+                  - { name: "name", label: "Item Name", widget: "string" }
+                  - { name: "price", label: "Price", widget: "string" }
+
+  - name: "events"
+    label: "Cook Schedule"
+    files:
+      - name: "events"
+        label: "Events"
+        file: "content/events.json"
+        fields:
+          - name: "events"
+            label: "Events"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "date", label: "Date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+              - { name: "time", label: "Time Range", widget: "string", required: false, hint: "e.g. 11:00 AM - 5:00 PM" }
+              - { name: "location", label: "Location", widget: "string", default: "The Potato Shed" }
+              - { name: "description", label: "Description", widget: "text", required: false }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about.md"
+        fields:
+          - { name: "body", label: "Content", widget: "markdown" }
+
+      - name: "contact"
+        label: "Contact Info"
+        file: "content/contact.json"
+        fields:
+          - { name: "email", label: "Email", widget: "string" }
+          - { name: "tagline", label: "Tagline", widget: "string" }
+          - name: "address"
+            label: "Address"
+            widget: "object"
+            fields:
+              - { name: "street", label: "Street", widget: "string" }
+              - { name: "city", label: "City", widget: "string" }
+              - { name: "state", label: "State", widget: "string" }
+              - { name: "zip", label: "ZIP", widget: "string" }
