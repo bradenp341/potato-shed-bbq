@@ -28,7 +28,7 @@ export default function Home() {
             <span className="text-red-600">BBQ</span>
           </h1>
           <p className="text-stone-300 text-lg sm:text-xl max-w-lg mb-8 leading-relaxed">
-            Authentic low-and-slow smoked barbecue in Randolph, Minnesota.
+            Authentic low-and-slow smoked barbecue in Cannon Falls, Minnesota.
             Brisket, pulled pork, sausage, and homemade sides &mdash; all
             crafted with 30+ years of pit master experience.
           </p>

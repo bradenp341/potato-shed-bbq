@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Potato Shed BBQ - The Midwest's Best",
   description:
-    "Authentic smoked BBQ in Randolph, MN. Brisket, pulled pork, sausage, and more. The Midwest's Best barbecue.",
+    "Authentic smoked BBQ in Cannon Falls, MN. Brisket, pulled pork, sausage, and more. The Midwest's Best barbecue.",
 };
 
 export default function RootLayout({
