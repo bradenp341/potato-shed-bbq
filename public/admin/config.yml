@@ -2,9 +2,7 @@ backend:
   name: github
   repo: bradenp341/potato-shed-bbq
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  site_id: 90897d30-14e9-41a4-83bb-f173447123af
+  site_domain: dashing-tapioca-1a8742.netlify.app
 
 media_folder: "public/images"
 public_folder: "/images"
