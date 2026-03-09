@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: bradenp34/potato-shed-bbq
+  repo: bradenp341/potato-shed-bbq
   branch: main
 
 media_folder: "public/images"
